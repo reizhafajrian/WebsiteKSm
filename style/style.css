@@ -1,0 +1,58 @@
+* {
+    font-family: Roboto;
+}
+
+ul {
+    margin: 0px auto;
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    height: 40px;
+}
+
+li {
+    list-style: none;
+}
+
+.onboard-container {
+    position: relative;
+    display: flex;
+    width: 1250px;
+    margin: 0px auto;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.text-onboard {
+    align-self: center;
+}
+
+#button-daftar {
+    width: 100px;
+    border: none;
+    height: 30px;
+    font-weight: 800;
+    background-color: #34c6eb;
+    border-radius: 10px;
+    color: white;
+}
+
+.cardview {
+    width: 1250px;
+    max-width: 100%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.card {
+    width: max-content;
+    padding: 20px;
+    box-shadow: 0 0 2px 1px #34c6eb;
+    border-radius: 40px;
+}
